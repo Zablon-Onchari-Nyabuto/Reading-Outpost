@@ -1,26 +1,5 @@
 const apiUrl = "http://localhost:3000/books";
 
-// search for books
-function searchBook(id) {
-  fetch(`${apiUrl}/${id}`)
-    .then((response) => response.json())
-    .then((data) => {
-      document.getElementById("input1").innerHTML = data.map;
-    }
-    )
-}
-
-for (i = 0; i < li.length; i++) {
-  a = li[i].getElementsById("")[0];
-  if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-    li[i].style.display = "";
-  } else {
-    li[i].style.display = "none";
-  }
-}
-
-searchBook(1);
-
 // get book details
 function getBookDetails(id) {
   fetch(`${apiUrl}/${id}`)
