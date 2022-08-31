@@ -4,7 +4,7 @@
 
 ## Description
 
-Reading Outpost is a website that provides users access to book reviews from fellow readers like themselves. It also allows users to comment or leave books reviews. 
+Reading Outpost is a website that provides users access to book reviews from fellow readers like themselves. It also allows users to edit the book description or leave a comment about a particular book. 
 
 ## Setup Requirements
 

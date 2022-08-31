@@ -25,7 +25,7 @@ function getBooks() {
     .then((data) => {
       document.getElementById("book-list").innerHTML = data
         .map(
-          (beer) => `<li onClick="getBearDetails(${book.id})">${book.name}</li>`
+          (book) => `<li onClick="getBookDetails(${book.id})">${book.name}</li>`
         )
         .join("");
     });
