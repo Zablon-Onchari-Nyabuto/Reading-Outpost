@@ -42,7 +42,7 @@ body {
   
   .book-details h2 {
     font-size: 32px;
-    text-align: center;
+    text-align: left;
   }
   
   .book-details h3 {
@@ -51,14 +51,16 @@ body {
   
   .book-details img {
     display: block;
-    height: 20%;
-    width: 20%;
+    height: 30%;
+    width: 50%;
+    direction: left;
     margin: 0 auto 25px auto;
+    border-radius: 50%;
   }
   
   form {
-    width: 450px;
-    margin: 0 auto 50px auto;
+    width: 40%;
+    margin: 50px auto 50px auto;
   }
   
   textarea {
