@@ -29,7 +29,7 @@ The following have been used on this project:
 
 
 
-#### Live link to view the project <a href="https://jobs-portal-frontend.netlify.app/">View Jobs Portal</a>
+#### Live link to view the project <a href="https://zablon-onchari-nyabuto.github.io/Reading-Outpost/">View Reading Outpost</a>
 
 
 ## Known Bugs
