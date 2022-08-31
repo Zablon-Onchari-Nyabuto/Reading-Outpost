@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading Outpost</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <header>
+        <h1>Reading Titles</h1>
+        <nav>
+          <ul id="books-list">
+            <li>Book 1</li>
+            <li>Book 2</li>
+            <li>Book 3</li>
+          </ul>
+        </nav>
+      </header>
+  
+      <main>
+        <div class="book-details">
+          <h2 id="book-name">Book Name</h2>
+          <img
+            id="book-image"
+            alt="Book Name Goes Here"
+            src="Assets/laura-kapfer-hmCMUZKLxa4-unsplash.jpg" width="400%" height="20%"
+          />
+          <p>
+            <em id="book-description">Book Description Goes Here</em>
+          </p>
+  
+          <form id="description-form">
+            <label for="description">Edited Description:</label>
+            <textarea id="description"></textarea>
+            <button type="submit">Update Book</button>
+          </form>
+  
+          <h3>Reader Reviews</h3>
+          <ul id="review-list">
+            <li>Replace with actual reviews</li>
+            <li>From the server</li>
+          </ul>
+          <form id="review-form">
+            <label for="review">Your Review:</label>
+            <textarea id="review"></textarea>
+            <button type="submit">Add review</button>
+          </form>
+        </div>
+      </main>
+    <script src="script.js"></script>
+</body>
+</html>

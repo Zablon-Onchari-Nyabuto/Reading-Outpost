@@ -1,0 +1,113 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "name": "ULYSSES",
+        "author": "James Joyce",
+        "description": "Written as an homage to Homer’s epic poem The Odyssey, Ulysses follows its hero, Leopold Bloom, through the streets of Dublin. Overflowing with puns, references to classical literature, and stream-of-consciousness writing, this is a complex, multilayered novel about one day in the life of an ordinary man. Initially banned in the United States but overturned by a legal challenge by Random House’s Bennett Cerf, Ulysses was called “a memorable catastrophe” (Virginia Woolf), “a book to which we are all indebted” (T. S. Eliot), and “the most faithful X-ray ever taken of the ordinary human consciousness” (Edmund Wilson). Joyce himself said, “There is not one single serious line in [Ulysses].",
+        "image_url": "https://commons.wikimedia.org/wiki/File:JoyceUlysses2.jpg#/media/File:JoyceUlysses2.jpg",
+        "reviews": [
+          "Captivating and enchanting!!",
+          "Liked it, but not in a couldn’t put it down sort of way",
+          "Good overview and important writing lessons for anyone who needs a review or just enjoys books about writing.",
+          "Really liked the first 30 pages or so, but had to skim the rest!!"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "THE GREAT GATSBY",
+        "author": "F. Scott Fitzgerald",
+        "description": "Set in the Jazz Age, The Great Gatsby tells the story of the mysterious millionaire Jay Gatsby, his decadent parties, and his love for the alluring Daisy Buchanan. Dismissed as “no more than a glorified anecdote, and not too probable at that” (The Chicago Tribune), The Great Gatsby is now considered a contender for “the Great American Novel.” Fitzgerald wanted to title the novel “Trimalchio in West Egg,” but both his wife and his editor preferred “The Great Gatsby.” Fitzgerald gave in, though he still thought that “the title is only fair, rather bad than good.”",
+        "image_url": "https://images.punkapi.com/v2/4.png",
+        "reviews": [
+          "Really really good. Highly recommend for a more literary read.",
+          "My mum hates it"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "A PORTRAIT OF THE ARTIST AS A YOUNG MAN",
+        "author": "James Joyce",
+        "description": "Published in 1916, James Joyce’s semiautobiographical tale of his alter ego, Stephen Dedalus, is a coming-of-age story like no other. A bold, innovative experiment with both language and structure, the work has exerted a lasting influence on the contemporary novel; Alfred Kazin commented that “Joyce dissolved mechanism in literature as effectively as Einstein destroyed it in physics.” Reviewing the book in The New Republic, H. G. Wells wrote, “Like some of the best novels in the world it is the story of an education; it is by far the most living and convincing picture that exists of an Irish Catholic upbringing.”",
+        "image_url": "https://images.punkapi.com/v2/5.png",
+        "reviews": [
+          "Wish I didn’t need a reminder on this topic, but I do."
+        ]
+      },
+      {
+        "id": 4,
+        "name": "LOLITA",
+        "author": "Vladimir Nabokov",
+        "description": "Lolita tells the story of middle-aged Humbert Humbert’s love for twelve-year-old Dolores Haze. The concept is troubling, but the novel defies any kind of label, though it has been heralded as a hilarious satire, a bitter tragedy, and even an allegory for U.S.-European relations. In Reading Lolita in Tehran, Azar Nafisi summarized the book as “hopeful, beautiful even, a defense not just of beauty but of life . . . Nabokov, through his portrayal of Humbert, has exposed all solipsists who take over other people’s lives.”",
+        "image_url": "https://images.punkapi.com/v2/6.png",
+        "reviews": [
+          "I remember nothing"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "BRAVE NEW WORLD",
+        "author": "Aldous Huxley",
+        "description": "Though Brave New World is less famous than George Orwell’s 1984, it arguably presents a world that more closely resembles our own: a world of easy sex, readily available and mood-altering pharmaceuticals, information overload, and mass production.  Juxtaposing Orwell’s and Huxley’s dystopias, the critic Neil Postman commented: “What Orwell feared were those who would ban books. What Huxley feared was that there would be no reason to ban a book, for there would be no one who wanted to read one. . . . Orwell feared that the truth would be concealed from us. Huxley feared the truth would be drowned in a sea of irrelevance.”",
+        "image_url": "https://images.punkapi.com/v2/7.png",
+        "reviews": [
+          "Read this book last year, but listened this time. Loved it!",
+          "Really enjoyed this one. Reminded me a bit of Eleanor & Park."
+        ]
+      },
+      {
+        "id": 6,
+        "name": "THE SOUND AND THE FURY",
+        "author": "William Faulkner",
+        "description": "Narrated by the Compson siblings—Benjy, a source of shame for his family due to his diminished mental capacity; brilliant and obsessive Quentin; and Jason, the cynic—as well as Dilsey, the powerful matriarch of their black servants, The Sound and the Fury is a tragedy of haunted lives. As each of these characters reflect on the fourth sibling, beautiful and free-spirited Caddy, Faulkner paints an indelible portrait of a family in disarray. While The Sound and the Fury was dismissed by its author as a “splendid failure,” it is now considered a masterpiece and played a crucial role in Faulkner being awarded the 1949 Nobel Prize in Literature.",
+        "image_url": "https://images.punkapi.com/v2/9.png",
+        "reviews": [
+          "This was a really fast read– a memoir in bite-size segments . . . ",
+          "One of the best, most clear set of reasons and reflections I’ve ever read"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "CATCH-22",
+        "author": "Joseph Heller",
+        "description": "This satirical novel follows U.S. Captain John Yossarian and his squadron of World War II fighters as they navigate the horrors and paradoxes of war. Based on American author Joseph Heller’s own wartime experiences, the novel explores the many facets of war and employs a unique narrative structure. Catch-22 is widely seen as one of the most significant American novels of the twentieth century. The New York Times called it “a dazzling performance that will outrage nearly as many readers as it delights.”",
+        "image_url": "https://images.punkapi.com/v2/10.png",
+        "reviews": [
+          "Liked it a lot. Read it quickly."
+        ]
+      },
+      {
+        "id": 8,
+        "name": "DARKNESS AT NOON",
+        "author": "Arthur Koestler",
+        "description": "Set in the midst of Stalin’s 1936–1938 purges—when Stalin executed as many as 1.75 million peasants, government officials, and Communist party members—Darkness at Noon is the story of a man named Rubashov, who is arrested in the middle of the night by the state’s secret police. The Party he has long served tortures him and demands he confess to crimes they know he has not committed. Darkness at Noon sold over 400,000 copies when it was published and its portrait of Communism was a major factor in the Communist Party’s defeat in France.",
+        "image_url": "https://images.punkapi.com/v2/keg.png",
+        "reviews": [
+          "Quick, good read for all writers. You will feel buoyed and validated",
+          "Wow! This book was an intense narrative plunge.",
+          "Very well written and impressive. I really liked it."
+        ]
+      },
+      {
+        "id": 9,
+        "name": "SONS AND LOVERS",
+        "author": "D.H. Lawrence",
+        "description": "This intensely autobiographical novel recounts the story of Paul Morel, a young artist growing to manhood in a British working-class family rife with conflict. The author’s vivid evocation of life in a Nottingham mining village in the years before the First World War and his depiction of the all-consuming nature of possessive love and sexual attraction make this one of Lawrence’s most powerful novels. The poet Philip Larkin said, “If Lawrence had been killed off after writing [Sons and Lovers], he’d still be England’s greatest novelist.”",
+        "image_url": "https://images.punkapi.com/v2/12.png",
+        "reviews": [
+          "This was an excellent young adult read."
+        ]
+      },
+      {
+        "id": 10,
+        "name": "THE GRAPES OF WRATH",
+        "author": "John Steinbeck",
+        "description": "Winner of the National Book Award and the Pulitzer Prize, this 1939 novel follows the Joad family as they leave the Oklahoma Dust Bowl and travel to California in search of work. A moving story about migration and abject poverty, The Grapes of Wrath is a candidate for the Great American Novel. Steinbeck himself claimed that he wanted the book “to put a tag of shame on the greedy bastards who are responsible for [the Great Depression and its effects].”",
+        "image_url": "https://images.punkapi.com/v2/13.png",
+        "reviews": [
+          "Sweet story and quick read.",
+          "Started out great, but got bogged down in too many details later."
+        ]
+      }
+    ]
+  }
