@@ -1,4 +1,4 @@
-# ReadingOutpost
+# Reading Outpost
 
 #### Created By Zablon Onchari Nyabuto on 31-08-2022
 

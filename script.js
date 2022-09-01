@@ -19,7 +19,7 @@ function getBookDetails(id) {
 }
 getBookDetails();
 
-// get all books
+// To load the first book in the database
 function getBooks() {
   fetch(apiUrl)
     .then((response) => response.json())
@@ -43,14 +43,11 @@ document.addEventListener("DOMContentLoaded", () => {
     </li>`;
   });
 
-  // update description
-  document
-    .getElementById("description-form")
-    .addEventListener("submit", (evt) => {
+  // update the book description on the website
+  document.getElementById("description-form").addEventListener("submit", (evt) => {
       evt.preventDefault();
-      document.getElementById("description-list").innerHTML += `<li>
-      ${document.getElementById("description").value}
-      </li>`;
+     
       form.reset();
     });
 });
+
