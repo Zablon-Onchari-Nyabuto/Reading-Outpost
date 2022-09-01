@@ -13,10 +13,6 @@ Reading Outpost is a website that provides users access to book reviews from fel
 - Github
 - Json server
 
-## Development server
-
-Navigate to `http://localhost:3000`. The app will automatically reload if you change any of the source files.
-
 
 ## Technologies Used
 
