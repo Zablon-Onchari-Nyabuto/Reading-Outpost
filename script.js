@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //To like a book description
 function likeBookDescription() {
-  fetch(`http://localhost:3000/books/1'`)
+  fetch('http://localhost:3000/images/1')
     .then((response) => response.json())
     .then((data) => {
       const button = document.getElementById("like-btn")
@@ -70,4 +70,5 @@ function likeBookDescription() {
 
 }
 
-likeBookDescription(1);
+likeBookDescription();
+

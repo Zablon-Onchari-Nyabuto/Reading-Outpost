@@ -79,7 +79,6 @@ form {
 }
 
 textarea {
-  
   display: block;
   width: 30%;
   height: 20px;
@@ -91,7 +90,6 @@ textarea {
 }
 
 form button[type="submit"] {
-  
   border: none;
   font-size: 16px;
   font-weight: 600;
