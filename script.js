@@ -1,4 +1,6 @@
 const apiUrl = "http://localhost:3000/books";
+const EMPTY_HEART = '♡'
+const FULL_HEART = '♥'
 
 // get book details
 function getBookDetails(id) {
@@ -54,18 +56,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 //To like a book description
-function incrementLikes(){
-  fetch('http://localhost:3000/books')
-  .then((response) => response.json())
-  .then((data) => {
-      const button = document.getElementById("like-btn")
-      const count = document.getElementById("like-count")
-      button.addEventListener('click', () => {
-          data.likes += 1
-          count.innerHTML = `${data.likes} likes`
-      })
-  })
-  
-}
-incrementLikes();
+function likeBookDescription(){
 
+}
+
+likeBookDescription();

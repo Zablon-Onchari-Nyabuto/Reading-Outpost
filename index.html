@@ -13,6 +13,9 @@
         <h1>Find a Book Review</h1>
       </nav>
     </header>
+    <div class="dropdown">
+      <h2>choose a book: </h2>
+    </div>
     <main>
       <div class="book-details">
         <h1>One of our favourite reviews</h1>
@@ -28,12 +31,13 @@
           <em id="book-description">Book Description Goes Here</em>
         </p>
         <div>
-          <span id="like-count" class="like-count-value">0 likes</span>
-          <button id="like-btn" class="like-button">♥</button>
+          <ul>
+            <li id="like-btn" class="like">Like <span class="like-glyph">&#x2661;</span></li>
+          </ul>
         </div>
         <ul id="description-list">
-          <li>New description</li>
-          <li>From the user</li>
+          <li></li>
+          <li></li>
         </ul>
         <form id="description-form">
           <label for="description">Your Description:</label>
