@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 //To like a book description
-function increaseLikes(){
+function incrementLikes(){
   fetch('http://localhost:3000/books')
   .then((response) => response.json())
   .then((data) => {
@@ -65,5 +65,5 @@ function increaseLikes(){
   })
   
 }
-increaseLikes();
+incrementLikes();
 
