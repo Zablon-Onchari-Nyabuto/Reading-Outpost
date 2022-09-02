@@ -1,6 +1,4 @@
 const apiUrl = "http://localhost:3000/books";
-const EMPTY_HEART = '♡'
-const FULL_HEART = '♥'
 
 // get book details
 function getBookDetails(id) {
@@ -20,6 +18,7 @@ function getBookDetails(id) {
     });
 }
 getBookDetails();
+
 
 // To load the first book in the database
 function getBooks() {
@@ -47,16 +46,27 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // update the book description on the website
   document.getElementById("description-form").addEventListener("submit", (evt) => {
-      evt.preventDefault();
-      document.getElementById("description-list").innerHTML += `<li>
+    evt.preventDefault();
+    document.getElementById("description-list").innerHTML += `<li>
       ${document.getElementById("description").value} 
       </li>`;
-      form.reset();
-    });
+    form.reset();
+  });
 });
 
 //To like a book description
-function likeBookDescription(){
+function likeBookDescription() {
+  fetch(`http://localhost:3000/books/1'`)
+    .then((response) => response.json())
+    .then((data) => {
+      const button = document.getElementById("like-btn")
+      const count = document.getElementById("like-count")
+      button.addEventListener('click', () => {
+        data.likes += 1
+        count.innerHTML = `${data.likes} likes`
+      })
+
+    })
 
 }
 

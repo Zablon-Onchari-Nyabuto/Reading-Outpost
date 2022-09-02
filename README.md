@@ -9,7 +9,7 @@ Reading Outpost is a website that provides users access to book reviews from fel
 ## Setup Requirements
 
 - Git
-- Web-browser or your choice
+- Web-browser of your choice
 - Github
 - Json server
 
@@ -30,9 +30,9 @@ The following have been used on this project:
 
 ## Known Bugs
 
-So far so good there are no bugs related to this project 😎
+So far so good there are no bugs related to this project 
 
-## Support and contact details 🙂
+## Support and contact details 
 
 To make a contribution to the code used or any suggestions you can click on the contact link and email me your suggestions.
 
