@@ -46,7 +46,9 @@ document.addEventListener("DOMContentLoaded", () => {
   // update the book description on the website
   document.getElementById("description-form").addEventListener("submit", (evt) => {
       evt.preventDefault();
-     
+      document.getElementById("description-list").innerHTML += `<li>
+      ${document.getElementById("description").value} 
+      </li>`;
       form.reset();
     });
 });
