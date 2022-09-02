@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
   getBooks();
   getBookDetails(1);
 
-  // add a new review on submission
+  // add a new review by a user
   document.getElementById("review-form").addEventListener("submit", (e) => {
     e.preventDefault();
     document.getElementById("review-list").innerHTML += `<li>
