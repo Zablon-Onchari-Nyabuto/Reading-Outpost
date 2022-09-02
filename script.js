@@ -70,4 +70,4 @@ function likeBookDescription() {
 
 }
 
-likeBookDescription();
+likeBookDescription(1);
