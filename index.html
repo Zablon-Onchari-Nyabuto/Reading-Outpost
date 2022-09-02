@@ -7,11 +7,12 @@
     <title>Reading Outpost</title>
   </head>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://fontawesome.com/icons/heart?s=solid&f=classic">
   <body>
     <!-- Header -->
     <header>
       <nav>
-        <h1>Book Reviews</h1>
+       <i><h1>Reading Outpost</h1></i>
       </nav>
     </header>
 
@@ -30,6 +31,7 @@
           <em id="book-description">Book Description Goes Here</em>
         </p>
         <div>
+          <i class="fa-solid fa-heart"></i>
           <span id="like-count" class="like-count-value">0 likes</span>
           <button id="like-btn" class="like-button">♥</button>
         </div>
@@ -40,11 +42,11 @@
 
         <!-- Description form -->
         <form id="description-form">
-          <label for="description">Your Description:</label>
+          <label for="description">New Description:</label>
           <textarea id="description"></textarea>
-          <button type="submit">Update Description</button>
+          <button type="submit">Update</button>
         </form>
-        <h3>Book Reviews</h3>
+        <h3>Reviews</h3>
         <ul id="review-list">
           <li></li>
           <li></li>
