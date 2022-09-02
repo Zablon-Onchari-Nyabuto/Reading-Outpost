@@ -21,7 +21,7 @@ getBookDetails();
 
 // To load the first book in the database
 function getBooks() {
-  fetch(apiUrl)
+  fetch('apiUrl')
     .then((response) => response.json())
     .then((data) => {
       document.getElementById("book-list").innerHTML = data
@@ -50,4 +50,20 @@ document.addEventListener("DOMContentLoaded", () => {
       form.reset();
     });
 });
+
+//To like a book description
+function increaseLikes(){
+  fetch('http://localhost:3000/books')
+  .then((response) => response.json())
+  .then((data) => {
+      const button = document.getElementById("like-btn")
+      const count = document.getElementById("like-count")
+      button.addEventListener('click', () => {
+          data.likes += 1
+          count.innerHTML = `${data.likes} likes`
+      })
+  })
+  
+}
+increaseLikes();
 
