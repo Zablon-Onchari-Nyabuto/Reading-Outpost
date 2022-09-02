@@ -3,7 +3,7 @@ body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  color: #404040;
+  color: lightblue;
 }
 
 header {
@@ -15,7 +15,7 @@ header {
   border-radius: 0 0 6px 0;
   padding: 10px;
   margin-right: 10px;
-  background-color: burlywood;
+  background-color: lightblue;
   text-align: center;
 }
 
@@ -34,17 +34,14 @@ li {
   list-style: none;
 }
 
-.dropdown{
-  background-color: aqua;
-  padding: 2px;
-}
-
 main {
   float: left;
   width: 100%;
-  background-color: antiquewhite;
+  background-color: lightblue;
 }
-
+.book-details{
+  float: left;
+}
 .book-details h2 {
   font-size: 44px;
   text-align: left;
