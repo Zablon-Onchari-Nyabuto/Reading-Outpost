@@ -1,0 +1,20 @@
+{
+  "name": "reading-outpost",
+  "version": "1.0.0",
+  "description": "#### Created By Zablon Onchari Nyabuto on 31-08-2022",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zablon-Onchari-Nyabuto/Reading-Outpost.git"
+  },
+  "author": "Zablon Onchari Nyabuto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zablon-Onchari-Nyabuto/Reading-Outpost/issues"
+  },
+  "homepage": "https://github.com/Zablon-Onchari-Nyabuto/Reading-Outpost#readme"
+}
